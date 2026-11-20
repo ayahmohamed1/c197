@@ -390,7 +390,7 @@ export default function GiftClient({ data }: Props) {
               <div className="letter-divider"><span>✦</span></div>
               <div className="signature" style={{ color: '#f472b6' }}>
                 <p>With all my love,</p>
-                <p>{data.senderName || 'your love'} ✨</p>
+                <p>{data.senderName || 'Salma'} ✨</p>
               </div>
             </div>
           </div>
