@@ -375,7 +375,7 @@ export default function GiftClient({ data }: Props) {
               clipPath: 'path("M60 105 C 60 105, 5 65, 5 32 C 5 15, 20 6, 36 6 C 48 6, 56 15, 60 24 C 64 15, 72 6, 84 6 C 100 6, 115 15, 115 32 C 115 65, 60 105, 60 105 Z")'
             }}>
               <Image
-                src="/images/pic1.jpg"
+                src="/images/bear-hug.gif"
                 alt="Letter Special Photo"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -636,8 +636,8 @@ export default function GiftClient({ data }: Props) {
           ) : (
             <div style={{ marginTop: '10px' }}>
               <Sparkles />
-              <div className="svg-container" style={{ position: 'relative', width: '190px', height: '190px', margin: '15px auto' }}>
-                <Image src="/images/bear-hug.gif" alt="Yay!" fill style={{ objectFit: 'cover', borderRadius: '50%' }} unoptimized />
+              <div style={{ position: 'relative', width: '220px', height: '220px', margin: '15px auto', borderRadius: '16px', overflow: 'hidden' }}>
+                <Image src="/images/pic6.jpg" alt="Birthday surprise" fill style={{ objectFit: 'cover' }} unoptimized />
               </div>
               <h2 className="gift-title" style={{ color: '#f472b6', fontSize: '2.2rem', marginTop: '10px' }}>
                 Happy birthday my man
